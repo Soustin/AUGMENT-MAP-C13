@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-y: scroll;
+}
+
+#map {
+    height: 100vh;
+    width: 100%;
+}
+
+#navigate-button {
+    border: none;
+    width: 60%;
+    padding: 1em;
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+}
+
+.container {
+    margin-top: 1px;
+    border: 3px solid rgb(73, 88, 221);
+}
+
+.image-marker {
+    height: 10;
+    width: 10;
+}
+
+.amber{
+    height: 10px;
+    width: 10px;
+}
+
+.gate {
+    height: 10px;
+    width: 10px;
+}
+
+.gateway {
+    height: 10px;
+    width: 10px;
+}
+
+.lotus {
+    height: 10px;
+    width: 10px;
+}
+
+.victoria {
+    height: 10px;
+    width: 10px;
+}
