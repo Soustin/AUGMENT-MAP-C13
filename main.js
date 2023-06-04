@@ -7,7 +7,7 @@ var map = new mapboxgl.Map({
     container: "map",
     style: "mapbox://styles/mapbox/streets-v12",
     center: [longitude, latitude],
-    zoom: 16
+    zoom: 4
 });
 
 map.addControl(
@@ -71,6 +71,22 @@ var marker5 = new mapboxgl.Marker({
     element: img5
 })
 .setLngLat([88.34257675122109, 22.544781016745933])
+.addTo(map);
+
+var img6 = document.querySelector("#jorasanko")
+
+var marker6 = new mapboxgl.Marker({
+    element: img6
+})
+.setLngLat([88.35924345441735, 22.58507376418773])
+.addTo(map);
+
+var img7 = document.querySelector("#belurmath")
+
+var marker7 = new mapboxgl.Marker({
+    element: img7
+})
+.setLngLat([88.35642441023687, 22.632795116058986])
 .addTo(map);
 
 // new mapboxgl.Popup()
